@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 2/02_02_end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 2/02_03_end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 2/02_04_end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 2/02_05_end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 2/02_02_begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 2/02_03_begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 2/02_04_begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 2/02_05_begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 3/03_02_end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 3/03_02_begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 5/05_02_end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 5/05_03_end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 5/05_04_end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 5/05_05_end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 5/05_07_end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 5/05_02_begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 5/05_03_begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 5/05_04_begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 5/05_05_begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter 5/05_07_begin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

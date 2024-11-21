@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth" enabled="true">
+        <sourceOutputDir name="../02_02_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../02_02_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (4)" />
+        <module name="spring-framework-in-depth (1)" />
+        <module name="spring-framework-in-depth (3)" />
+        <module name="spring-framework-in-depth (2)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (5)" enabled="true">
+        <sourceOutputDir name="../02_03_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../02_03_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (5)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (6)" enabled="true">
+        <sourceOutputDir name="../02_02_begin/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../02_02_begin/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (6)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (7)" enabled="true">
+        <sourceOutputDir name="../02_04_begin/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../02_04_begin/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (7)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (8)" enabled="true">
+        <sourceOutputDir name="../../Chapter 2/02_04_begin/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Chapter 2/02_04_begin/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (8)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (9)" enabled="true">
+        <sourceOutputDir name="../../Chapter 2/02_05_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Chapter 2/02_05_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (9)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (10)" enabled="true">
+        <sourceOutputDir name="../../Chapter 2/02_03_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Chapter 2/02_03_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (10)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (11)" enabled="true">
+        <sourceOutputDir name="../../Chapter 2/02_04_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Chapter 2/02_04_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (11)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (12)" enabled="true">
+        <sourceOutputDir name="../05_03_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../05_03_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (12)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (13)" enabled="true">
+        <sourceOutputDir name="../../Chapter 2/02_03_begin/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Chapter 2/02_03_begin/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (13)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (14)" enabled="true">
+        <sourceOutputDir name="../05_05_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../05_05_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (14)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (15)" enabled="true">
+        <sourceOutputDir name="../05_03_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../05_03_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (15)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (16)" enabled="true">
+        <sourceOutputDir name="../05_03_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../05_03_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (16)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (17)" enabled="true">
+        <sourceOutputDir name="../05_03_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../05_03_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (17)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (18)" enabled="true">
+        <sourceOutputDir name="../05_03_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../05_03_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (18)" />
+      </profile>
+      <profile name="Annotation profile for spring-framework-in-depth (19)" enabled="true">
+        <sourceOutputDir name="../05_03_end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../05_03_end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-framework-in-depth (19)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
