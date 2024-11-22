@@ -1,4 +1,6 @@
-package com.udemy.curso.model;
+package com.udemy.curso.service;
+
+import com.udemy.curso.model.Computadora;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,14 +11,14 @@ public class Orden {
     private final List<Computadora> computadoras;
     private static int contadorOrden;
 
-    private Orden(){
+    public Orden(){
         computadoras = new ArrayList<Computadora>();
         this.idOrden = ++contadorOrden;
     }
 
-   public void agregarComputadora(Computadora computadora){
+    public void agregarComputadore(Computadora computadora){
         computadoras.add(computadora);
-   }
+    }
 
     public void mostrarOrden(){
         System.out.println("Orden #" + idOrden);
