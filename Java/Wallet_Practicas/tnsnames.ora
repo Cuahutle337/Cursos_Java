@@ -1,0 +1,12 @@
+practicas_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-monterrey-1.oraclecloud.com))(connect_data=(service_name=g524bcd1fddf24a_practicas_high.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.mx-monterrey-1.oraclecloud.com, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+practicas_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-monterrey-1.oraclecloud.com))(connect_data=(service_name=g524bcd1fddf24a_practicas_low.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.mx-monterrey-1.oraclecloud.com, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+practicas_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-monterrey-1.oraclecloud.com))(connect_data=(service_name=g524bcd1fddf24a_practicas_medium.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.mx-monterrey-1.oraclecloud.com, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+practicas_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-monterrey-1.oraclecloud.com))(connect_data=(service_name=g524bcd1fddf24a_practicas_tp.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.mx-monterrey-1.oraclecloud.com, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+practicas_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.mx-monterrey-1.oraclecloud.com))(connect_data=(service_name=g524bcd1fddf24a_practicas_tpurgent.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.mx-monterrey-1.oraclecloud.com, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+
+
