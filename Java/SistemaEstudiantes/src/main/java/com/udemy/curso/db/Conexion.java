@@ -27,7 +27,7 @@ public class Conexion {
            //SID
            //String sid = "xe";
            //URL "jdbc:oracle:thin:@nombreServidor:numeroPuerto:SID"
-           String url = "jdbc:oracle:thin:@practicas_high?TNS_ADMIN=/Cursos/Java/Wallet_Practicas";
+           String url = "jdbc:oracle:thin:@practicas_high?TNS_ADMIN=/Users/Efrain/Documents/Cursos/Java/Wallet_Practicas";
 
 
            //Nombre usuario y password
