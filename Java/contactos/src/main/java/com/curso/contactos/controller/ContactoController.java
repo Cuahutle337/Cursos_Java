@@ -22,7 +22,7 @@ public class ContactoController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String iniciar(ModelMap modelo){
 
-        List<Contacto> listaContactos =  contactoService.finAll();
+        List<Contacto> listaContactos =  contactoService.findAll();
         modelo.put("contactos",listaContactos);
         return "index";
 
@@ -45,7 +45,7 @@ public class ContactoController {
     @GetMapping("/editar/{id}")
     public String mostrarEditar(@PathVariable(value = "id") int idContacto, ModelMap model){
 
-        Contacto contacto = contactoService.FindById(idContacto);
+        Contacto contacto = contactoService.findById(idContacto);
         model.put("contacto",contacto);
 
         return "editar";
