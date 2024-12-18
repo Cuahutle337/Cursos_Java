@@ -28,7 +28,21 @@
 	</scm>
 	<properties>
 		<java.version>23</java.version>
+		<joinfaces.version>5.4.0</joinfaces.version>
 	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.joinfaces</groupId>
+				<artifactId>joinfaces-bom</artifactId>
+				<version>${joinfaces.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -49,7 +63,6 @@
 			<groupId>com.oracle.database.security</groupId>
 			<artifactId>oraclepki</artifactId>
 		</dependency>
-
 
 		<dependency>
 			<groupId>com.oracle.database.security</groupId>
@@ -72,6 +85,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.joinfaces</groupId>
+			<artifactId>faces-spring-boot-starter</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
