@@ -19,7 +19,7 @@ public class ContactoController {
     @Autowired
     private ContactoService contactoService;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @GetMapping(value = "/ ")
     public String iniciar(ModelMap modelo){
 
         List<Contacto> listaContactos =  contactoService.finAll();
@@ -38,7 +38,7 @@ public class ContactoController {
 
         contactoService.saveContacto(contacto);
 
-        return "redirec:/";
+        return "redirect:/";
 
     }
 
@@ -56,7 +56,7 @@ public class ContactoController {
 
         contactoService.saveContacto(contacto);
 
-        return "redirec:/";
+        return "redirect:/";
     }
 
     @GetMapping(value = "/eliminar/{id}")

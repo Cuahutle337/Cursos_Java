@@ -1,10 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragmentos/cabecero::cabecero-seccion(titulo = 'Inicio')}">
+
 </head>
 <body>
-$END$
+<!-- Menu de navegacion-->
+<div th:replace="~{fragmentos/navegacion::navegacion-seccion}" />
+
+<div class="container">
+
+    <div class="container text-center" style="margin:30px">
+        <h3>Editar Contacto</h3>
+    </div>
+
+    <div class="container">
+
+        <form action="/contactos/editar" th:object="${contacto}" method="post">
+            <input type="hidden" th:field="*{idContacto}">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">nomre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre"
+                required="true" th:field="*{nombre}">
+            </div>
+            <div class="mb-3">
+                <label for="celular" class="form-label">Celular</label>
+                <input type="text" class="form-control" id="celular" name="celular"
+                th:field="*{celular}">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" name="email"
+                th:field="*{email}">
+            </div>
+            <button type="submit" class="btn btn-warning btn-sm me-3 ">Modificar</button>
+            <a href="/" class="btn btn-danger btn-sm">Regresar </a>
+        </form>
+
+    </div>
+
+</div>
+
+
+
+<div th:replace="~{fragmentos/pie-pagina::pie-pagina-seccion}" />
 </body>
 </html>
