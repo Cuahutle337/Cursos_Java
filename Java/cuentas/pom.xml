@@ -35,7 +35,7 @@
 		<dependencies>
 			<dependency>
 				<groupId>org.joinfaces</groupId>
-				<artifactId>joinfaces-bom</artifactId>
+				<artifactId>joinfaces-dependencies</artifactId>
 				<version>${joinfaces.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
@@ -88,8 +88,11 @@
 
 		<dependency>
 			<groupId>org.joinfaces</groupId>
-			<artifactId>faces-spring-boot-starter</artifactId>
+			<artifactId>primefaces-spring-boot-starter</artifactId>
+			<version>5.4.1</version>
 		</dependency>
+
+
 
 	</dependencies>
 
