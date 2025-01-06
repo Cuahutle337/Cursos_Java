@@ -3,9 +3,11 @@ package com.curso.inventarios.service;
 import com.curso.inventarios.model.Producto;
 import com.curso.inventarios.repository.ProductoRespository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ProductoServiceImp implements IproductoService{
 
     @Autowired
