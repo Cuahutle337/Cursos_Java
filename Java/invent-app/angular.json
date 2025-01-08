@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "inventario-app": {
+    "invent-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/inventario-app",
+            "outputPath": "dist/invent-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "inventario-app:build:production"
+              "buildTarget": "invent-app:build:production"
             },
             "development": {
-              "buildTarget": "inventario-app:build:development"
+              "buildTarget": "invent-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "a6814f2c-b4e7-4c0a-a411-b48906254720"
+    "analytics": "f4d4abe2-68f0-4991-ad97-bf65c8ee4ce6"
   }
 }
