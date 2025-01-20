@@ -15,7 +15,7 @@ public class ProductoServiceImp implements IproductoService{
 
     @Override
     public List<Producto> findAll() {
-        return productoRepo.findAll();
+        return productoRepo.findAll  ();
     }
 
     @Override
@@ -30,9 +30,9 @@ public class ProductoServiceImp implements IproductoService{
     }
 
     @Override
-    public void save(Producto producto) {
+    public Producto save(Producto producto) {
 
-        productoRepo.save(producto);
+         return this.productoRepo.save(producto);
 
     }
 }

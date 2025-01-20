@@ -13,6 +13,7 @@ const browserDistFolder = resolve(serverDistFolder, '../browser');
 
 const app = express();
 const angularApp = new AngularNodeAppEngine();
+const cors = require('cors');
 
 /**
  * Example Express Rest API endpoints can be defined here.
@@ -36,6 +37,7 @@ app.use(
     redirect: false,
   }),
 );
+app.use(cors());
 
 /**
  * Handle all other requests by rendering the Angular application.

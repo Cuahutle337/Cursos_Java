@@ -13,5 +13,5 @@ public interface IproductoService {
 
     public void delete(Producto producto);
 
-    public void save(Producto producto);
+    public Producto save(Producto producto);
 }
