@@ -43,7 +43,7 @@ public class EmpleadoController {
 
     }
 
-    @GetMapping("/empleado/{id}")
+    @GetMapping("/empleados/{id}")
     public ResponseEntity<Empleados>getEmpleadoById(@PathVariable int id){
 
         Empleados empleado = this.empleadoService.findById(id);
@@ -52,7 +52,7 @@ public class EmpleadoController {
 
     }
 
-    @DeleteMapping("empleado/{id}")
+    @DeleteMapping("empleados/{id}")
     public ResponseEntity<Map<String,Boolean>>delete(@PathVariable int id){
 
         Map<String,Boolean> respuesta = new HashMap<>();
@@ -67,7 +67,7 @@ public class EmpleadoController {
 
     }
 
-    @PutMapping ("/empleado")
+    @PutMapping ("/empleados/{id}")
     public Empleados actualizaEmpleado(@PathVariable int id, @RequestBody Empleados empleadoAc){
 
         Empleados empleado = this.empleadoService.findById(id);
